@@ -12,11 +12,11 @@ var client = new Twitter({
 });
 
 var params = {
-    screen_name: 'aoc',
+    screen_name: 'realDonaldTrump',
     trim_user: true, 
     exclude_replies: true, 
     include_entities: false,
-    count: 200,
+    count: 500,
 };
 client.get('statuses/user_timeline', params, function(error, tweet, response) {
     if(error) throw error;
@@ -34,21 +34,15 @@ client.get('statuses/user_timeline', params, function(error, tweet, response) {
     var newStrArray = sw.removeStopwords(strArray.split(' '));
 
     var counted = count(newStrArray)
-    console.log(counted.sort(function(a, b){return a.count - b.count}).reverse())
-
-      /*
-        counted.forEach(element => {
-            wolfRamString += "\"" + element + "\"";
-            if(i != arrayLength){
-                wolfRamString += ",";
-            }
-        });
-        */
+    counted.sort(function(a, b){return a.count - b.count}).reverse();
+    counted = counted.slice(0,10);
     
-
+    counted.forEach(element => {
+      wolfRamString += "\"" + element.value + "\",";        
+    });
+        
     var status = genWoldRamStr(wolfRamString)
-  //  console.log(status)
-/*
+
     client.post('statuses/update', {status: status}, function(error, tweet, response) {
        if (!error) {
           console.log(tweet);
@@ -57,7 +51,6 @@ client.get('statuses/user_timeline', params, function(error, tweet, response) {
             console.log(status);
         }
     });
-*/
 });
 
 function genWoldRamStr(keywords){
