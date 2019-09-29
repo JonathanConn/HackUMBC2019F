@@ -9,7 +9,14 @@ var client = new Twitter({
     access_token_secret: 'E0Xg8ejLaRz9uB0lmmof2W5fB6dwNXRhOr23FGBaPeXVZ'
 });
 
-client.get('statuses/user_timeline', {Name: 'paulisfake', trim_user: true, exclude_replies: true, include_entities: false}, function(error, tweet, response) {
+var params = {
+    screen_name: 's_imone29',
+    trim_user: true, 
+    exclude_replies: true, 
+    include_entities: false,
+    count: 200,
+};
+client.get('statuses/user_timeline', params, function(error, tweet, response) {
     if(error) throw error;
 
     //parsing tweet[] into one massive string of .text elms
