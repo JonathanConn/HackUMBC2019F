@@ -38,11 +38,13 @@ client.get('statuses/user_timeline', params, function(error, tweet, response) {
     counted = counted.slice(0,10);
     
     counted.forEach(element => {
-      wolfRamString += "\"" + element.value + "\",";        
+      wolfRamString += "{\"" + element.value + "\"," + element.count + "},";        
     });
+    wolfRamString = wolfRamString.substr(0,wolfRamString.length-1);
         
     var status = genWoldRamStr(wolfRamString)
-
+    console.log(status)
+/*
     client.post('statuses/update', {status: status}, function(error, tweet, response) {
        if (!error) {
           console.log(tweet);
@@ -51,13 +53,13 @@ client.get('statuses/user_timeline', params, function(error, tweet, response) {
             console.log(status);
         }
     });
+    */
 });
 
 function genWoldRamStr(keywords){
     var str = "@wolframtap ";
     str += "WordCloud[" 
-    + "DeleteStopwords[{" + keywords + "\"\"}]"
-    +"]";
+    + "{" + keywords + "}]"
     return str;
 }
 
