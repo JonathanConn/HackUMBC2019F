@@ -1,6 +1,6 @@
 var Twitter = require('twitter');
 var keyword = {Word: "", Count: 0};
-var wolfRamString = [];
+var wolfRamString = "";
 
 var client = new Twitter({
     consumer_key: 'EkThYMeteBowInnRcE014hN47',
@@ -8,6 +8,21 @@ var client = new Twitter({
     access_token_key: '3692376076-t4pNeulz7BTBtBNdGrBYIkxqqjcXQke1SquPkrx',
     access_token_secret: 'E0Xg8ejLaRz9uB0lmmof2W5fB6dwNXRhOr23FGBaPeXVZ'
 });
+
+client.get('statuses/user_timeline', {Name: 'paulisfake', trim_user: true, exclude_replies: true, include_entities: false}, function(error, tweet, response) {
+    if(error) throw error;
+
+    //parsing tweet[] into one massive string of .text elms
+    var arrayLength = tweet.length;
+    for (var i = 0; i < arrayLength; i++) {
+        wolfRamString += tweet[i].text;
+    }
+
+    console.log(wolfRamString);
+
+});
+
+
 
 /*
 client.stream('statuses/filter', {track: 'twitter'},  function(stream) {
@@ -20,7 +35,7 @@ client.stream('statuses/filter', {track: 'twitter'},  function(stream) {
       console.log(error);
     });
   });
-  */
+  
 
 client.post('statuses/update', {status: '@wolframtap GeoGraphics[Text[Style["hello!",150]],GeoRange->"World"]'}, function(error, tweet, response) {
     if (!error) {
@@ -31,3 +46,4 @@ client.post('statuses/update', {status: '@wolframtap GeoGraphics[Text[Style["hel
 function genWoldRamStr(keywords){
 
 }
+*/

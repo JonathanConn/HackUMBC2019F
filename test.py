@@ -4,7 +4,7 @@ import pandas as pd
 import re
 import nltk
 from nltk.corpus import stopwords
-
+import wolframclient as wf
 
 access_token = '2744193833-l4Qm2mX57buKN7nLRcoASs3O69Of8F5kqYb9EB1'
 access_token_secret = 'KhTKPNRmwyWzL9q5KtKICnjhHnzzsuH4spPWImWzOusXp'
@@ -47,4 +47,6 @@ tweets_nsw = [[word for word in tweet_words if not word in stop_words]
 
 tweets_nsw[0]
 
-print(tweets_nsw)
+wf.WorldCloud[tweets_nsw]
+
+#print(tweets_nsw)
