@@ -10,26 +10,53 @@ var client = new Twitter({
 });
 
 var params = {
-    screen_name: 's_imone29',
+    screen_name: 'aoc',
     trim_user: true, 
     exclude_replies: true, 
     include_entities: false,
-    count: 200,
+    count: 1,
 };
 client.get('statuses/user_timeline', params, function(error, tweet, response) {
     if(error) throw error;
 
     //parsing tweet[] into one massive string of .text elms
     var arrayLength = tweet.length;
+
     for (var i = 0; i < arrayLength; i++) {
-        wolfRamString += tweet[i].text;
+
+        var temp = tweet[i].text;
+        var array = temp.split(" ");
+
+        array.forEach(element => {
+            wolfRamString += "\"" + element + "\"";
+            if(i != arrayLength){
+                wolfRamString += ",";
+            }
+        });
     }
 
-    console.log(wolfRamString);
+    var status = genWoldRamStr(wolfRamString)
+    console.log(status)
+
+    client.post('statuses/update', {status: status}, function(error, tweet, response) {
+        if (!error) {
+          console.log(tweet);
+        }else{
+            console.log(error);
+            console.log(status);
+        }
+    });
+
 
 });
 
-
+function genWoldRamStr(keywords){
+    var str = "@wolframtap ";
+    str += "WordCloud[" 
+    + "DeleteStopwords[{" + keywords + "\"\"}]"
+    +"]";
+    return str;
+}
 
 /*
 client.stream('statuses/filter', {track: 'twitter'},  function(stream) {
@@ -43,14 +70,4 @@ client.stream('statuses/filter', {track: 'twitter'},  function(stream) {
     });
   });
   
-
-client.post('statuses/update', {status: '@wolframtap GeoGraphics[Text[Style["hello!",150]],GeoRange->"World"]'}, function(error, tweet, response) {
-    if (!error) {
-      console.log(tweet);
-    }
-});
-
-function genWoldRamStr(keywords){
-
-}
 */

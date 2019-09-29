@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       161,          7]
-NotebookDataLength[     25688,        625]
-NotebookOptionsPosition[     25267,        609]
-NotebookOutlinePosition[     25609,        624]
-CellTagsIndexPosition[     25566,        621]
+NotebookDataLength[     31806,        775]
+NotebookOptionsPosition[     29023,        721]
+NotebookOutlinePosition[     29365,        736]
+CellTagsIndexPosition[     29322,        733]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -24,572 +24,44 @@ Cell[BoxData[
  RowBox[{
   RowBox[{"WordCloud", "[", 
    RowBox[{"DeleteStopwords", "[", 
-    RowBox[{"WikipediaData", "[", "\"\<UMD\>\"", "]"}], "]"}], "]"}], 
+    RowBox[{"{", 
+     RowBox[{
+     "\"\<test\>\"", ",", " ", "1.0", ",", " ", "\"\<test2\>\"", ",", "2.0", 
+      ",", " ", "\"\<test3\>\"", ",", "3.0"}], "}"}], "]"}], "]"}], 
   "\[IndentingNewLine]"}]], "Input",
  CellChangeTimes->{{3.7786960410072236`*^9, 3.7786960524835477`*^9}, {
   3.7786960994252896`*^9, 3.778696103479949*^9}, {3.7786963712446613`*^9, 
   3.77869637164021*^9}, {3.7786964331388693`*^9, 3.7786964588748474`*^9}, {
-  3.7786965139082704`*^9, 
-  3.7786965823936253`*^9}},ExpressionUUID->"e8b9236f-a475-427a-b5df-\
-c1b99a6a7147"],
+  3.7786965139082704`*^9, 3.778696603442524*^9}, {3.7787062855825024`*^9, 
+  3.7787062918872175`*^9}, {3.7787064988219953`*^9, 3.7787065415125904`*^9}},
+ CellLabel->"In[10]:=",ExpressionUUID->"e8b9236f-a475-427a-b5df-c1b99a6a7147"],
 
 Cell[BoxData[
- GraphicsBox[{InsetBox[
-    StyleBox["\<\"Hitler\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.2692307692307693],
-     FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
-    Automatic], InsetBox[
-    StyleBox["\<\"Germany\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.07611844222722884],
-     FontColor->RGBColor[0.528488, 0.470624, 0.701351]], {0., -34.}, Center, 
-    Automatic], InsetBox[
-    StyleBox["\<\"German\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.1002574831026714],
-     FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {0., 39.}, Center, 
-    Automatic], InsetBox[
-    StyleBox["\<\"Hitler's\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.09253299002252978],
-     FontColor->RGBColor[0.922526, 0.385626, 0.209179]], {0., -54.}, Center, 
-    Automatic], InsetBox[
-    StyleBox["\<\"government\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.05197940135178629],
-     FontColor->RGBColor[0.40082222609352647`, 0.5220066643438841, 0.85]], {11., 54.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"September\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04811715481171548],
-     FontColor->RGBColor[
-      0.9324333565611593, 0.5282889043741062, 0.0921900209050434]], {-14., 64.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"Party\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.07418731895719344],
-     FontColor->RGBColor[0.772079, 0.431554, 0.102387]], {0., -72.}, Center, 
-    Automatic], InsetBox[
-    StyleBox["\<\"political\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.05970389443192791],
-     FontColor->RGBColor[0.647624, 0.37816, 0.614037]], {-68., -33.}, Center, 
-    Automatic], InsetBox[
-    StyleBox["\<\"Reichstag\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04811715481171548],
-     FontColor->RGBColor[
-      0.28240003484173815`, 0.6090799721266095, 0.7538800418100857]], {0., 76.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"military\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.05970389443192791],
-     FontColor->RGBColor[1, 0.75, 0]], {71., 22.}, Center, Automatic], 
-   InsetBox[
-    StyleBox["\<\"War\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.09639523656260059],
-     FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {68., -37.}, Center, 
-    Automatic], InsetBox[
-    StyleBox["\<\"Hindenburg\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04232378500160927],
-     FontColor->RGBColor[
-      0.3103557220216354, 0.5867154223826917, 0.7874268664259625]], {-75., 33.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"Army\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.061635017701963314`],
-     FontColor->RGBColor[0.363898, 0.618501, 0.782349]], {64., 36.}, Center, 
-    Automatic], InsetBox[
-    StyleBox["\<\"Germany's\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.041358223366591576`],
-     FontColor->RGBColor[0.5019668524892619, 0.46131988850644284`, 0.85]], {-63., -49.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"February\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.044254908271644675`],
-     FontColor->RGBColor[0.7132613816472081, 0.358, 0.5392132590042952]], {-46., -67.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"According\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.041358223366591576`],
-     FontColor->RGBColor[0.47929071933511125`, 0.715, 0.1759027208462221]], {64., -54.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"leadership\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04232378500160927],
-     FontColor->RGBColor[0.6897400905885174, 0.358, 0.5753998606330502]], {-72., 43.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"support\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04522046990666238],
-     FontColor->RGBColor[
-      0.35558897405758294`, 0.5505288207539337, 0.8417067688690995]], {45., -67.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"including\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.038461538461538464`],
-     FontColor->RGBColor[
-      0.8633598745697435, 0.40996018814538476`, 0.08339968642435877]], {52., 65.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"January\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04039266173157387],
-     FontColor->RGBColor[0.7277983389807635, 0.358, 0.5168487092603637]], {-8., -85.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"people\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04522046990666238],
-     FontColor->RGBColor[
-      0.8878600487784333, 0.33792799024431336`, 0.2577332520359445]], {-66., 56.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"ideology\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.038461538461538464`],
-     FontColor->RGBColor[0.4177882075393331, 0.715, 0.25417864494993975`]], {71., 48.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"Chancellor\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04328934663662698],
-     FontColor->RGBColor[
-      0.23716678280579248`, 0.645266573755366, 0.699600139366951]], {0., 87.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"NSDAP\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.05391052462182169],
-     FontColor->RGBColor[0.915, 0.3325, 0.2125]], {-53., 76.}, Center, 
-    Automatic], InsetBox[
-    StyleBox["\<\"power\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.044254908271644675`],
-     FontColor->RGBColor[
-      0.8564488486273256, 0.42032672705901153`, 0.06612212156831418]], {40., -79.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"Versailles\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04039266173157387],
-     FontColor->RGBColor[0.9307395679624266, 0.7498043964402695, 0.]], {55., 75.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"August\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04232378500160927],
-     FontColor->RGBColor[
-      0.8342400905885153, 0.4628267270590103, 0.0038160815296638794`]], {90., -3.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"April\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.05391052462182169],
-     FontColor->RGBColor[0.571589, 0.586483, 0.]], {86., -16.}, Center, 
-    Automatic], InsetBox[
-    StyleBox["\<\"Munich\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04811715481171548],
-     FontColor->RGBColor[
-      0.8439466852489265, 0.3467106629502147, 0.3309221912517893]], {-50., -80.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"meeting\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.03942710009655617],
-     FontColor->RGBColor[0.5788038738141875, 0.715, 0.049249615145579635`]], {31., -90.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"foreign\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04328934663662698],
-     FontColor->RGBColor[
-      0.6536293927965667, 0.37163285420200276`, 0.6534265180085832]], {44., 85.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"Europe\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04328934663662698],
-     FontColor->RGBColor[
-      0.9052934053395919, 0.510195603559728, 0.06776406480563275]], {-18., -95.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"economic\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04232378500160927],
-     FontColor->RGBColor[
-      0.8607200975568693, 0.34335598048862614`, 0.30296650407188447`]], {0., 97.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"Poland\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.050048278081750885`],
-     FontColor->RGBColor[0.28026441037696703`, 0.715, 0.4292089322474965]], {-48., 88.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"ordered\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04618603154168008],
-     FontColor->RGBColor[0.47401116530937026`, 0.47809330081437784`, 0.85]], {21., -102.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"G\[ODoubleDot]ring\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.041358223366591576`],
-     FontColor->RGBColor[
-      0.9930578157165594, 0.7227890785827968, 0.01874389756528967]], {41., 95.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"November\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.038461538461538464`],
-     FontColor->RGBColor[
-      0.8064401951137368, 0.3542119609772526, 0.39343300814377197`]], {-11., 105.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"began\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.041358223366591576`],
-     FontColor->RGBColor[
-      0.8745421494417032, 0.39318677583744527`, 0.11135537360425793`]], {-93., 0.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"Treaty\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04328934663662698],
-     FontColor->RGBColor[0.2187618985811806, 0.715, 0.5074848563512248]], {-87., -61.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"historian\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04039266173157387],
-     FontColor->RGBColor[
-      0.969373377466199, 0.6043668873309952, 0.08269188084126262]], {-58., -93.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"World\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.050048278081750885`],
-     FontColor->RGBColor[
-      0.838355547812947, 0.44746667828057946`, 0.0208888695323676]], {86., -69.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"Early\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04715159317669779],
-     FontColor->RGBColor[0.5407932311309059, 0.715, 0.09762679674248334]], {-93., 11.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"Soviet\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.051013839716768594`],
-     FontColor->RGBColor[0.736782672705901, 0.358, 0.5030266573755369]], {92., 58.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"public\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04039266173157387],
-     FontColor->RGBColor[
-      0.845266573755366, 0.437100139366951, 0.03816643438841502]], {-92., -14.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"history\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.038461538461538464`],
-     FontColor->RGBColor[0.7042770479220728, 0.358, 0.5530353108891188]], {74., -81.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"million\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04522046990666238],
-     FontColor->RGBColor[0.7678998606330495, 0.7317110956258943, 0.]], {-55., 100.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"elections\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.038461538461538464`],
-     FontColor->RGBColor[
-      0.8774935098648088, 0.34000129802703827`, 0.2750108168919853]], {39., 105.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"Germans\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.03942710009655617],
-     FontColor->RGBColor[
-      0.6670481226429111, 0.3638052617916352, 0.6198796933927223]], {-37., -104.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"National\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04039266173157387],
-     FontColor->RGBColor[0.31827505306025683`, 0.715, 0.3808317506505822]], {73., -92.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"Minister\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04328934663662698],
-     FontColor->RGBColor[0.428777913273419, 0.5052332520359486, 0.85]], {82., 85.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"forces\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04522046990666238],
-     FontColor->RGBColor[
-      0.6184987019729621, 0.39212575718243875`, 0.7412532450675947]], {-89., -73.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"Eastern\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04232378500160927],
-     FontColor->RGBColor[0.8493197142977551, 0.7407577460330839, 0.]], {63., -104.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"Berlin\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04811715481171548],
-     FontColor->RGBColor[0.8996399512215667, 0.7463488834690629, 0.]], {-86., 88.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"Bavarian\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.038461538461538464`],
-     FontColor->RGBColor[
-      0.8510135028964549, 0.47400900193096995`, 0.018912152606809424`]], {83., 95.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"Britain\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04522046990666238],
-     FontColor->RGBColor[
-      0.16397784358994957`, 0.7038177251280403, 0.6117734123079395]], {-92., 100.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"policy\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.038461538461538464`],
-     FontColor->RGBColor[
-      0.6453361616656581, 0.37647057236169945`, 0.6741595958358548]], {-92., 67.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"Jewish\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.041358223366591576`],
-     FontColor->RGBColor[
-      0.7896667828057927, 0.3575666434388414, 0.4213886953236787]], {0., -114.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"civilians\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.038461538461538464`],
-     FontColor->RGBColor[
-      0.6102054708420535, 0.39696347534213544`, 0.7619863228948663]], {0., 115.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"France\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04328934663662698],
-     FontColor->RGBColor[0.6361597700445392, 0.7170733077827265, 0.]], {98., 69.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"March\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.044254908271644675`],
-     FontColor->RGBColor[0.37977756485605163`, 0.715, 0.3025558265468435]], {101., 32.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"Union\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04618603154168008],
-     FontColor->RGBColor[
-      0.9874666782805795, 0.6948333914028977, 0.033839968642435214`]], {35., -114.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"Jews\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04908271644673319],
-     FontColor->RGBColor[
-      0.5833680111493557, 0.4126186601628758, 0.8290799721266107]], {-101., 54.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"General\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.038461538461538464`],
-     FontColor->RGBColor[
-      0.9603267270590103, 0.5591336352950514, 0.10711783694067224`]], {-38., -114.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"years\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.03942710009655617],
-     FontColor->RGBColor[
-      0.9840111653093676, 0.677555826546838, 0.04316985366470745]], {30., 20.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"defeat\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04039266173157387],
-     FontColor->RGBColor[0.38354466123747527`, 0.5323732032575149, 0.85]], {-52., 111.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"leader\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04232378500160927],
-     FontColor->RGBColor[
-      0.9492067688690977, 0.5394711792460651, 0.10728609198218791`]], {-93., -85.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"British\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04328934663662698],
-     FontColor->RGBColor[
-      0.8168067340273636, 0.3521386531945273, 0.3761554432877274]], {61., 113.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"Austria\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.038461538461538464`],
-     FontColor->RGBColor[0.15725938678540247`, 0.715, 0.5857607804549424]], {-75., -104.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"Nazi\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.051013839716768594`],
-     FontColor->RGBColor[
-      0.9728288904374106, 0.621644452187053, 0.07336199581899142]], {103., -46.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"day\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04522046990666238],
-     FontColor->RGBColor[
-      0.8613800418100862, 0.48092002787339083`, 0.02824203762907758]], {104., 8.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"1939\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04522046990666238],
-     FontColor->RGBColor[0.7748409210981391, 0.358, 0.4444755060028629]], {105., -82.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"1933\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04618603154168008],
-     FontColor->RGBColor[
-      0.8857244243136628, 0.3764133635295058, 0.1393110607841571]], {-83., 112.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"1938\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04715159317669779],
-     FontColor->RGBColor[
-      0.6753413537738198, 0.3589675436319385, 0.5991466155654507]], {91., 106.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"school\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.038461538461538464`],
-     FontColor->RGBColor[
-      0.9107287510704583, 0.33890687339431275`, 0.20182187767614543`]], {69., -115.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"result\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04039266173157387],
-     FontColor->RGBColor[
-      0.5750747800184488, 0.4174563783225715, 0.8498130499538777]], {97., -102.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"death\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04039266173157387],
-     FontColor->RGBColor[
-      0.9046334610863751, 0.334573307782725, 0.22977756485604156`]], {-105., -48.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"Battle\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04232378500160927],
-     FontColor->RGBColor[
-      0.596786740995709, 0.404791067752503, 0.7955331475107271]], {-105., -97.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"Adolf\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04328934663662698],
-     FontColor->RGBColor[0.5472001045252132, 0.43417993728487203`, 0.85]], {99., -114.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"July\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.041358223366591576`],
-     FontColor->RGBColor[
-      0.19193353076984873`, 0.681453175384121, 0.6453202369238185]], {104., -29.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"known\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.038461538461538464`],
-     FontColor->RGBColor[0.529922539669161, 0.44454647619850335`, 0.85]], {-93., 22.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"father\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.03942710009655617],
-     FontColor->RGBColor[
-      0.922066817647527, 0.5213778784316846, 0.08286013588277422]], {-72., -114.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"1945\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04039266173157387],
-     FontColor->RGBColor[0.7175796237092107, 0.7261199581899123, 0.]], {-105., -109.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"state\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04328934663662698],
-     FontColor->RGBColor[
-      0.9784200278733908, 0.649600139366954, 0.058265924741844846`]], {106., 43.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"Alois\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04328934663662698],
-     FontColor->RGBColor[0.9810598048862722, 0.7553955338762525, 0.]], {-107., -28.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"June\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.041358223366591576`],
-     FontColor->RGBColor[
-      0.8781534541180211, 0.4921023027453475, 0.04333810870621905]], {113., 18.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"Order\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.038461538461538464`],
-     FontColor->RGBColor[
-      0.8949268664259606, 0.5032845776173072, 0.05843417978336459]], {115., -14.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"Reich\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.03942710009655617],
-     FontColor->RGBColor[
-      0.8926354502560807, 0.366046824615879, 0.15658862564020168`]], {17., 123.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"later\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04328934663662698],
-     FontColor->RGBColor[
-      0.9038177251280404, 0.3492734123079395, 0.18454431282010084`]], {-117., 9.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"office\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.038461538461538464`],
-     FontColor->RGBColor[
-      0.2198892179497479, 0.6590886256402017, 0.6788670615396974]], {0., -125.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"time\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04328934663662698],
-     FontColor->RGBColor[0.7513196300394465, 0.358, 0.48066210763162087`]], {-114., 32.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"Plan\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.041358223366591576`],
-     FontColor->RGBColor[
-      0.6319174318193065, 0.38429816477207124`, 0.7077064204517338]], {-118., -10.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"1941\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.03942710009655617],
-     FontColor->RGBColor[
-      0.8335801463353031, 0.3487839707329394, 0.3481997561078282]], {-31., 121.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"von\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.04522046990666238],
-     FontColor->RGBColor[
-      0.9637822400302223, 0.5764112001511111, 0.0977879519184]], {-119., 20.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"vote\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.03942710009655617],
-     FontColor->RGBColor[0.4567336004533182, 0.4884598397280091, 0.85]], {-24., -124.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"died\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.038461538461538464`],
-     FontColor->RGBColor[0.7989994773739094, 0.735166608597101, 0.]], {24., -125.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"Red\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.038461538461538464`],
-     FontColor->RGBColor[0.6672593867853922, 0.7205288207539324, 0.]], {-56., -6.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"end\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.038461538461538464`],
-     FontColor->RGBColor[
-      0.3383114092015346, 0.5643508726387724, 0.8209736910418415]], {-55., 13.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"Act\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.03942710009655617],
-     FontColor->RGBColor[
-      0.26512246998569167`, 0.6229020240114467, 0.73314696398283]], {-55., -16.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"life\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.038461538461538464`],
-     FontColor->RGBColor[
-      0.9986489531525362, 0.7507447657626809, 0.0036478264881522893`]], {121., -1.},
-     Center, Automatic], InsetBox[
-    StyleBox["\<\"25\"\>",
-     StripOnInput->False,
-     FontSize->Scaled[0.038461538461538464`],
-     FontColor->RGBColor[0.7658565873730018, 0.358, 0.4582975578876895]], {122., -24.},
-     Center, Automatic]},
+ TemplateBox[{
+  "DeleteStopwords","strse",
+   "\"String or list of strings expected at position \\!\\(\\*RowBox[{\\\"1\\\
+\"}]\\) in \\!\\(\\*RowBox[{\\\"DeleteStopwords\\\", \\\"[\\\", RowBox[{\\\"{\
+\\\", RowBox[{\\\"\\\\\\\"test\\\\\\\"\\\", \\\",\\\", \\\"1.`\\\", \
+\\\",\\\", \\\"\\\\\\\"test2\\\\\\\"\\\", \\\",\\\", \\\"2.`\\\", \\\",\\\", \
+\\\"\\\\\\\"test3\\\\\\\"\\\", \\\",\\\", \\\"3.`\\\"}], \\\"}\\\"}], \\\"]\\\
+\"}]\\).\"",2,10,1,27849947655631273154,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.7787065429356146`*^9},
+ CellLabel->
+  "During evaluation of \
+In[10]:=",ExpressionUUID->"9fe0fc98-d8cc-481e-9f7f-898fbed2af28"],
+
+Cell[BoxData[
+ GraphicsBox[InsetBox[
+   StyleBox[
+    RowBox[{"DeleteStopwords", "[", 
+     RowBox[{"{", 
+      RowBox[{"\<\"test\"\>", ",", "1.`", ",", "\<\"test2\"\>", ",", "2.`", 
+       ",", "\<\"test3\"\>", ",", "3.`"}], "}"}], "]"}],
+    StripOnInput->False,
+    FontSize->Scaled[0.050432276657060515`],
+    FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
+   Automatic],
   DefaultBaseStyle->{"Graphics", FontFamily -> "Helvetica"},
   Method->{
    "DefaultBoundaryStyle" -> Automatic, 
@@ -601,14 +73,654 @@ Cell[BoxData[
          "freeformCursorMode" -> True, 
           "placement" -> {"x" -> "All", "y" -> "None"}}}}, "DefaultPlotStyle" -> 
     Automatic},
-  PlotRange->{{-130.5, 129.5}, {-130.5, 128.5}}]], "Output",
+  PlotRange->{{-693.5, 694.5}, {-40.5, 29.5}}]], "Output",
  CellChangeTimes->{{3.778696085165687*^9, 3.7786961065336533`*^9}, 
-   3.7786965224316473`*^9, {3.7786965571027927`*^9, 3.778696573293175*^9}},
- CellLabel->"Out[7]=",ExpressionUUID->"11b46b69-471d-495e-939f-b5182e3e704a"]
+   3.7786965224316473`*^9, {3.7786965571027927`*^9, 3.778696587265669*^9}, {
+   3.7787065233910103`*^9, 3.778706543353247*^9}},
+ CellLabel->"Out[10]=",ExpressionUUID->"ce80073c-b8b0-4d30-a3f7-ec09778fe382"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"WordCounts", "[", "\"\<test test test test\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.7787066026923866`*^9, 3.7787066378782206`*^9}, {
+  3.7787066683712034`*^9, 3.7787066720336914`*^9}},
+ CellLabel->"In[14]:=",ExpressionUUID->"5f280cf3-03f2-4453-a6b6-3d40fcf8fe4d"],
+
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{"\<\"test\"\>", "\[Rule]", "4"}], "\[RightAssociation]"}]], "Output",
+ CellChangeTimes->{{3.7787066146979246`*^9, 3.7787066395100603`*^9}, 
+   3.778706673143162*^9},
+ CellLabel->"Out[14]=",ExpressionUUID->"9058ae51-8910-481c-9783-6b1ac692b5ea"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"WorldCloud", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+    "\"\<test\>\"", ",", "\"\<test\>\"", ",", "\"\<test\>\"", ",", " ", 
+     "\"\<test2\>\""}], "}"}], ",", " ", 
+   RowBox[{"{", "\"\<test2\>\"", "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.7787066856911077`*^9, 3.778706714521449*^9}, {
+  3.7787067538816442`*^9, 3.778706766022749*^9}, {3.7787068302738857`*^9, 
+  3.7787068533243384`*^9}},
+ CellLabel->"In[18]:=",ExpressionUUID->"8bb378c8-0c10-4c1d-9db6-82860b0c0912"],
+
+Cell[BoxData[
+ RowBox[{"WorldCloud", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"\<\"test\"\>", ",", "\<\"test\"\>", ",", "\<\"test\"\>", 
+     ",", "\<\"test2\"\>"}], "}"}], ",", 
+   RowBox[{"{", "\<\"test2\"\>", "}"}]}], "]"}]], "Output",
+ CellChangeTimes->{
+  3.7787067177371244`*^9, 3.77870676765415*^9, {3.7787068453176503`*^9, 
+   3.7787068548559794`*^9}},
+ CellLabel->"Out[18]=",ExpressionUUID->"fe4b33b1-d018-4949-864d-9ec1af67e02d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"WorldCloud", "[", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<test\>\"", ",", "\"\<test\>\"", ",", "\"\<test\>\"", ",", " ", 
+       "\"\<test2\>\""}], "}"}], ",", " ", 
+     RowBox[{"{", "\"\<test2\>\"", "}"}]}], "}"}], "]"}], 
+  "\[IndentingNewLine]", "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.7787068705368795`*^9, 3.7787068720025587`*^9}, {
+  3.7787069263325644`*^9, 3.778706930424554*^9}},
+ CellLabel->"In[20]:=",ExpressionUUID->"6d295782-3f82-4458-bcb8-92a305d92e02"],
+
+Cell[BoxData[
+ RowBox[{"WorldCloud", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\<\"test\"\>", ",", "\<\"test\"\>", ",", "\<\"test\"\>", 
+      ",", "\<\"test2\"\>"}], "}"}], ",", 
+    RowBox[{"{", "\<\"test2\"\>", "}"}]}], "}"}], "]"}]], "Output",
+ CellChangeTimes->{3.778706873888846*^9, 3.7787069316090508`*^9},
+ CellLabel->"Out[20]=",ExpressionUUID->"284bd2eb-0a4a-49d3-ad1f-5b93238b473c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"WordList", "[", "]"}], "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.778707149334962*^9, 3.778707154713337*^9}},
+ CellLabel->"In[21]:=",ExpressionUUID->"b2331ad2-f87f-486f-8ffd-ff0111e9cf16"],
+
+Cell[BoxData[
+ InterpretationBox[
+  TagBox[
+   FrameBox[GridBox[{
+      {
+       ItemBox[
+        TagBox[
+         RowBox[{"{", 
+          
+          RowBox[{"\<\"a\"\>", ",", "\<\"aah\"\>", ",", "\<\"aardvark\"\>", 
+           ",", "\<\"aback\"\>", ",", "\<\"abacus\"\>", ",", "\<\"abaft\"\>", 
+           ",", "\<\"abalone\"\>", ",", "\<\"abandon\"\>", 
+           ",", "\<\"abandoned\"\>", ",", "\<\"abandonment\"\>", 
+           ",", "\<\"abase\"\>", ",", "\<\"abasement\"\>", 
+           ",", "\<\"abash\"\>", ",", "\<\"abashed\"\>", 
+           ",", "\<\"abashment\"\>", ",", "\<\"abate\"\>", 
+           ",", "\<\"abatement\"\>", ",", "\<\"abattoir\"\>", 
+           ",", "\<\"abbe\"\>", ",", "\<\"abbess\"\>", ",", "\<\"abbey\"\>", 
+           ",", "\<\"abbot\"\>", ",", "\<\"abbreviate\"\>", 
+           ",", "\<\"abbreviated\"\>", ",", "\<\"abbreviation\"\>", 
+           ",", "\<\"abdicate\"\>", ",", "\<\"abdication\"\>", 
+           ",", "\<\"abdomen\"\>", ",", "\<\"abdominal\"\>", 
+           ",", "\<\"abduct\"\>", ",", "\<\"abducting\"\>", ",", 
+           TemplateBox[{"39114"},
+            "OutputSizeLimit`Skeleton"], ",", "\<\"zinc\"\>", 
+           ",", "\<\"zinfandel\"\>", ",", "\<\"zing\"\>", 
+           ",", "\<\"zinger\"\>", ",", "\<\"zinnia\"\>", ",", "\<\"zip\"\>", 
+           ",", "\<\"zipper\"\>", ",", "\<\"zippy\"\>", ",", "\<\"zircon\"\>",
+            ",", "\<\"zirconium\"\>", ",", "\<\"zit\"\>", 
+           ",", "\<\"zither\"\>", ",", "\<\"zloty\"\>", ",", "\<\"zodiac\"\>",
+            ",", "\<\"zodiacal\"\>", ",", "\<\"zombie\"\>", 
+           ",", "\<\"zonal\"\>", ",", "\<\"zone\"\>", ",", "\<\"zoning\"\>", 
+           ",", "\<\"zoo\"\>", ",", "\<\"zoological\"\>", 
+           ",", "\<\"zoologist\"\>", ",", "\<\"zoology\"\>", 
+           ",", "\<\"zoom\"\>", ",", "\<\"zoophyte\"\>", 
+           ",", "\<\"zounds\"\>", ",", "\<\"zucchini\"\>", 
+           ",", "\<\"zwieback\"\>", ",", "\<\"zydeco\"\>", 
+           ",", "\<\"zygote\"\>", ",", "\<\"zygotic\"\>"}], "}"}],
+         Short[#, 5]& ],
+        BaseStyle->{Deployed -> False},
+        StripOnInput->False]},
+      {GridBox[{
+         {
+          PaneBox[
+           TagBox[
+            TooltipBox[
+             StyleBox[
+              StyleBox[
+               DynamicBox[ToBoxes[
+                 FEPrivate`FrontEndResource[
+                 "FEStrings", "sizeBriefExplanation"], StandardForm],
+                ImageSizeCache->{65., {3., 9.}}],
+               StripOnInput->False,
+               DynamicUpdating->True,
+               LineSpacing->{1, 2},
+               LineIndent->0,
+               LinebreakAdjustments->{1., 100, 0, 0, 0}], "OSLText",
+              StripOnInput->False],
+             StyleBox[
+              DynamicBox[
+               ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeExplanation"], 
+                StandardForm]], DynamicUpdating -> True, LineIndent -> 0, 
+              LinebreakAdjustments -> {1., 100, 0, 0, 0}, 
+              LineSpacing -> {1, 2}, StripOnInput -> False]],
+            Annotation[#, 
+             Style[
+              Dynamic[
+               FEPrivate`FrontEndResource["FEStrings", "sizeExplanation"]], 
+              DynamicUpdating -> True, LineIndent -> 0, 
+              LinebreakAdjustments -> {1., 100, 0, 0, 0}, 
+              LineSpacing -> {1, 2}], "Tooltip"]& ],
+           Alignment->Center,
+           BaselinePosition->Baseline,
+           ImageSize->{Automatic, {25, Full}}], 
+          ButtonBox[
+           PaneSelectorBox[{False->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowLess"], 
+                StandardForm],
+               ImageSizeCache->{52., {1., 9.}}],
+              StripOnInput->False,
+              DynamicUpdating->True,
+              LineSpacing->{1, 2},
+              LineIndent->0,
+              LinebreakAdjustments->{1., 100, 0, 0, 0}], "OSLControl",
+             StripOnInput->False], True->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowLess"], 
+                StandardForm]],
+              StripOnInput->False,
+              DynamicUpdating->True,
+              LineSpacing->{1, 2},
+              LineIndent->0,
+              LinebreakAdjustments->{1., 100, 0, 0, 0}], "OSLControlActive",
+             StripOnInput->False]}, Dynamic[
+             CurrentValue["MouseOver"]],
+            Alignment->Center,
+            FrameMargins->0,
+            ImageSize->{Automatic, {25, Full}}],
+           Appearance->None,
+           BaselinePosition->Baseline,
+           
+           ButtonFunction:>OutputSizeLimit`ButtonFunction[
+            OutputSizeLimit`Defer, 21, 27849947655631273154, 5/2],
+           Enabled->True,
+           Evaluator->Automatic,
+           Method->"Queued"], 
+          ButtonBox[
+           PaneSelectorBox[{False->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowMore"], 
+                StandardForm],
+               ImageSizeCache->{62., {1., 9.}}],
+              StripOnInput->False,
+              DynamicUpdating->True,
+              LineSpacing->{1, 2},
+              LineIndent->0,
+              LinebreakAdjustments->{1., 100, 0, 0, 0}], "OSLControl",
+             StripOnInput->False], True->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowMore"], 
+                StandardForm]],
+              StripOnInput->False,
+              DynamicUpdating->True,
+              LineSpacing->{1, 2},
+              LineIndent->0,
+              LinebreakAdjustments->{1., 100, 0, 0, 0}], "OSLControlActive",
+             StripOnInput->False]}, Dynamic[
+             CurrentValue["MouseOver"]],
+            Alignment->Center,
+            FrameMargins->0,
+            ImageSize->{Automatic, {25, Full}}],
+           Appearance->None,
+           BaselinePosition->Baseline,
+           
+           ButtonFunction:>OutputSizeLimit`ButtonFunction[
+            OutputSizeLimit`Defer, 21, 27849947655631273154, 5 2],
+           Enabled->True,
+           Evaluator->Automatic,
+           Method->"Queued"], 
+          ButtonBox[
+           PaneSelectorBox[{False->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowAll"], 
+                StandardForm],
+               ImageSizeCache->{44., {1., 9.}}],
+              StripOnInput->False,
+              DynamicUpdating->True,
+              LineSpacing->{1, 2},
+              LineIndent->0,
+              LinebreakAdjustments->{1., 100, 0, 0, 0}], "OSLControl",
+             StripOnInput->False], True->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowAll"], 
+                StandardForm]],
+              StripOnInput->False,
+              DynamicUpdating->True,
+              LineSpacing->{1, 2},
+              LineIndent->0,
+              LinebreakAdjustments->{1., 100, 0, 0, 0}], "OSLControlActive",
+             StripOnInput->False]}, Dynamic[
+             CurrentValue["MouseOver"]],
+            Alignment->Center,
+            FrameMargins->0,
+            ImageSize->{Automatic, {25, Full}}],
+           Appearance->None,
+           BaselinePosition->Baseline,
+           
+           ButtonFunction:>OutputSizeLimit`ButtonFunction[
+            OutputSizeLimit`Defer, 21, 27849947655631273154, Infinity],
+           Enabled->True,
+           Evaluator->Automatic,
+           Method->"Queued"], 
+          ButtonBox[
+           PaneSelectorBox[{False->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeChangeLimit"], 
+                StandardForm],
+               ImageSizeCache->{78., {1., 9.}}],
+              StripOnInput->False,
+              DynamicUpdating->True,
+              LineSpacing->{1, 2},
+              LineIndent->0,
+              LinebreakAdjustments->{1., 100, 0, 0, 0}], "OSLControl",
+             StripOnInput->False], True->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeChangeLimit"], 
+                StandardForm],
+               ImageSizeCache->{78., {1., 9.}}],
+              StripOnInput->False,
+              DynamicUpdating->True,
+              LineSpacing->{1, 2},
+              LineIndent->0,
+              LinebreakAdjustments->{1., 100, 0, 0, 0}], "OSLControlActive",
+             StripOnInput->False]}, Dynamic[
+             CurrentValue["MouseOver"]],
+            Alignment->Center,
+            FrameMargins->0,
+            ImageSize->{Automatic, {25, Full}}],
+           Appearance->None,
+           BaselinePosition->Baseline,
+           ButtonFunction:>FrontEndExecute[{
+              FrontEnd`SetOptions[
+              FrontEnd`$FrontEnd, 
+               FrontEnd`PreferencesSettings -> {"Page" -> "Advanced"}], 
+              FrontEnd`FrontEndToken["PreferencesDialog"]}],
+           Evaluator->None,
+           Method->"Preemptive"]}
+        },
+        AutoDelete->False,
+        FrameStyle->GrayLevel[0.85],
+        GridBoxDividers->{"Columns" -> {False, {True}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{2}}}]}
+     },
+     DefaultBaseStyle->"Column",
+     GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+     GridBoxDividers->{"Columns" -> {{False}}, "Rows" -> {{False}}},
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{1.}}},
+     GridBoxSpacings->{"Columns" -> {
+         Offset[0.27999999999999997`], {
+          Offset[0.5599999999999999]}, 
+         Offset[0.27999999999999997`]}, "Rows" -> {
+         Offset[0.2], 
+         Offset[1.2], {
+          Offset[0.4]}, 
+         Offset[0.2]}}],
+    BaseStyle->"OutputSizeLimit",
+    FrameMargins->{{12, 12}, {0, 15}},
+    FrameStyle->GrayLevel[0.85],
+    RoundingRadius->5,
+    StripOnInput->False],
+   Deploy,
+   DefaultBaseStyle->"Deploy"],
+  If[27849947655631273154 === $SessionID, 
+   Out[21], Message[
+     MessageName[Syntax, "noinfoker"]]; Missing["NotAvailable"]; 
+   Null]]], "Output",
+ CellChangeTimes->{3.778707158961627*^9},
+ CellLabel->"Out[21]=",ExpressionUUID->"c84ee575-005f-4ba6-a9f6-2d30581b1ddd"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"WordCloud", "[", 
+  RowBox[{"{", 
+   RowBox[{"a", ",", "b", ",", "c"}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.778707165563682*^9, 3.7787071728470554`*^9}},
+ CellLabel->"In[22]:=",ExpressionUUID->"f5fb5658-cde5-40c1-801e-011f1e58c226"],
+
+Cell[BoxData[
+ GraphicsBox[{InsetBox[
+    StyleBox["b",
+     StripOnInput->False,
+     FontSize->Scaled[0.6930693069306931],
+     FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {0, 0}, Center, 
+    Automatic], InsetBox[
+    StyleBox["c",
+     StripOnInput->False,
+     FontSize->Scaled[0.6930693069306931],
+     FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {29., -22.}, Center, 
+    Automatic], InsetBox[
+    StyleBox["a",
+     StripOnInput->False,
+     FontSize->Scaled[0.6930693069306931],
+     FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {-34., 7.}, Center, 
+    Automatic]},
+  DefaultBaseStyle->{"Graphics", FontFamily -> "Helvetica"},
+  Method->{
+   "DefaultBoundaryStyle" -> Automatic, 
+    "DefaultGraphicsInteraction" -> {
+     "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+      "Effects" -> {
+       "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+        "Droplines" -> {
+         "freeformCursorMode" -> True, 
+          "placement" -> {"x" -> "All", "y" -> "None"}}}}, "DefaultPlotStyle" -> 
+    Automatic},
+  PlotRange->{{-52.5, 48.5}, {-48.5, 28.5}}]], "Output",
+ CellChangeTimes->{3.778707174372497*^9},
+ CellLabel->"Out[22]=",ExpressionUUID->"ee31f1d9-6a05-4d31-b8a1-c6a2809f5189"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"WordCloud", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"a", ",", "b", ",", "c"}], "}"}], ",", " ", 
+    RowBox[{"{", "a", "}"}]}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.77870717932129*^9, 3.7787071899624376`*^9}, {
+  3.7787077032499437`*^9, 3.7787077268529663`*^9}, {3.7787077978239717`*^9, 
+  3.7787078138128276`*^9}},
+ CellLabel->"In[28]:=",ExpressionUUID->"0446a485-9ffb-4889-8e81-b26fe3a29b8d"],
+
+Cell[BoxData[
+ GraphicsBox[{InsetBox[
+    StyleBox["a",
+     StripOnInput->False,
+     FontSize->Scaled[0.9722222222222222],
+     FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
+    Automatic], InsetBox[
+    StyleBox["b",
+     StripOnInput->False,
+     FontSize->Scaled[0.4861111111111111],
+     FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {-24.5, 4.5}, Center,
+     Automatic], InsetBox[
+    StyleBox["c",
+     StripOnInput->False,
+     FontSize->Scaled[0.4861111111111111],
+     FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {26.5, -5.5}, Center,
+     Automatic]},
+  DefaultBaseStyle->{"Graphics", FontFamily -> "Helvetica"},
+  Method->{
+   "DefaultBoundaryStyle" -> Automatic, 
+    "DefaultGraphicsInteraction" -> {
+     "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+      "Effects" -> {
+       "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+        "Droplines" -> {
+         "freeformCursorMode" -> True, 
+          "placement" -> {"x" -> "All", "y" -> "None"}}}}, "DefaultPlotStyle" -> 
+    Automatic},
+  PlotRange->{{-35., 37.}, {-26., 19.}}]], "Output",
+ CellChangeTimes->{
+  3.778707191140509*^9, {3.7787077210629015`*^9, 3.7787077277589707`*^9}, {
+   3.778707804380048*^9, 3.778707815385295*^9}},
+ CellLabel->"Out[28]=",ExpressionUUID->"4de2c592-dfdf-45e7-91a9-1f5b8867eaad"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"WordCloud", "[", 
+   RowBox[{"DeleteStopwords", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"I", " ", "am", " ", "a", " ", "tweet"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+       "Me", " ", "Covers", " ", "web", " ", "cam", " ", "CIA", " ", 
+        "Agent"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"need", " ", "haircut"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"Hello", ",", 
+        RowBox[{"World", "!"}]}], "}"}], ",", 
+      RowBox[{"{", "jonconn", "}"}], ",", 
+      RowBox[{"{", "hello", "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"I", " ", "am", " ", "a", " ", 
+        RowBox[{"bot", "!"}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"I", " ", "am", " ", "a", " ", 
+        RowBox[{"bot", "!"}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"hello", " ", 
+        RowBox[{"world", "!"}]}], "}"}]}], "}"}], "]"}], "]"}], 
+  "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.7787077698382983`*^9, 3.7787077813272314`*^9}, {
+  3.7787084355887957`*^9, 3.7787084605846577`*^9}, {3.7787092121355677`*^9, 
+  3.7787093072153425`*^9}},
+ CellLabel->"In[32]:=",ExpressionUUID->"319997ee-348a-4088-8b3f-7d8e4cc90123"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "DeleteStopwords","strse",
+   "\"String or list of strings expected at position \\!\\(\\*RowBox[{\\\"1\\\
+\"}]\\) in \\!\\(\\*RowBox[{\\\"DeleteStopwords\\\", \\\"[\\\", RowBox[{\\\"{\
+\\\", RowBox[{RowBox[{\\\"{\\\", RowBox[{\\\"\[ImaginaryI]\\\", \\\" \\\", \\\
+\"a\\\", \\\" \\\", \\\"am\\\", \\\" \\\", \\\"tweet\\\"}], \\\"}\\\"}], \
+\\\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"Agent\\\", \\\" \\\", \\\"cam\\\", \
+\\\" \\\", \\\"CIA\\\", \\\" \\\", \\\"Covers\\\", \\\" \\\", \\\"Me\\\", \
+\\\" \\\", \\\"web\\\"}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{\
+\\\"haircut\\\", \\\" \\\", \\\"need\\\"}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{\\\"Hello\\\", \\\",\\\", RowBox[{\\\"World\\\", \
+\\\"!\\\"}]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \\\"jonconn\\\", \\\
+\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \\\"hello\\\", \\\"}\\\"}], \
+\\\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"\[ImaginaryI]\\\", \\\" \\\", \\\"a\
+\\\", \\\" \\\", \\\"am\\\", \\\" \\\", RowBox[{\\\"bot\\\", \\\"!\\\"}]}], \
+\\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"\[ImaginaryI]\\\", \
+\\\" \\\", \\\"a\\\", \\\" \\\", \\\"am\\\", \\\" \\\", RowBox[{\\\"bot\\\", \
+\\\"!\\\"}]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"hello\\\
+\", \\\" \\\", RowBox[{\\\"world\\\", \\\"!\\\"}]}], \\\"}\\\"}]}], \
+\\\"}\\\"}], \\\"]\\\"}]\\).\"",2,32,13,27849947655631273154,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{{3.778709285643786*^9, 3.778709309295268*^9}},
+ CellLabel->
+  "During evaluation of \
+In[32]:=",ExpressionUUID->"c1e82ebb-2624-4fe6-821b-80d207540400"],
+
+Cell[BoxData[
+ GraphicsBox[InsetBox[
+   StyleBox[
+    RowBox[{"DeleteStopwords", "[", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"\[ImaginaryI]", " ", "a", " ", "am", " ", "tweet"}], "}"}], 
+       ",", 
+       RowBox[{"{", 
+        RowBox[{
+        "Agent", " ", "cam", " ", "CIA", " ", "Covers", " ", "Me", " ", 
+         "web"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"haircut", " ", "need"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"Hello", ",", 
+         RowBox[{"World", "!"}]}], "}"}], ",", 
+       RowBox[{"{", "jonconn", "}"}], ",", 
+       RowBox[{"{", "hello", "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"\[ImaginaryI]", " ", "a", " ", "am", " ", 
+         RowBox[{"bot", "!"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"\[ImaginaryI]", " ", "a", " ", "am", " ", 
+         RowBox[{"bot", "!"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"hello", " ", 
+         RowBox[{"world", "!"}]}], "}"}]}], "}"}], "]"}],
+    StripOnInput->False,
+    FontSize->Scaled[0.014516798009124844`],
+    FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
+   Automatic],
+  DefaultBaseStyle->{"Graphics", FontFamily -> "Helvetica"},
+  Method->{
+   "DefaultBoundaryStyle" -> Automatic, 
+    "DefaultGraphicsInteraction" -> {
+     "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+      "Effects" -> {
+       "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+        "Droplines" -> {
+         "freeformCursorMode" -> True, 
+          "placement" -> {"x" -> "All", "y" -> "None"}}}}, "DefaultPlotStyle" -> 
+    Automatic},
+  PlotRange->{{-2410.5, 2411.5}, {-40.5, 29.5}}]], "Output",
+ CellChangeTimes->{{3.778709287440792*^9, 3.7787093111091394`*^9}},
+ CellLabel->"Out[32]=",ExpressionUUID->"1ab8d065-7807-480a-a331-a81b2a0c7b30"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"words", " ", "=", " ", 
+  RowBox[{"{", 
+   RowBox[{
+   "\"\<test\>\"", ",", "\"\<test\>\"", ",", "\"\<a\>\"", ",", "\"\<the\>\"", 
+    ",", "\"\<it\>\""}], "}"}]}], "\[IndentingNewLine]", 
+ RowBox[{"WordCloud", "[", 
+  RowBox[{"DeleteStopwords", "[", "words", "]"}], "]"}]}], "Input",
+ CellChangeTimes->{{3.7787144374139676`*^9, 3.7787145016023617`*^9}, {
+   3.7787145472306457`*^9, 3.778714686321224*^9}, 3.7787165443698025`*^9, {
+   3.7787168073385487`*^9, 
+   3.7787168186390867`*^9}},ExpressionUUID->"5b646415-314c-46f7-9be6-\
+939523ae31f4"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"test\"\>", ",", "\<\"test\"\>", ",", "\<\"a\"\>", 
+   ",", "\<\"the\"\>", ",", "\<\"it\"\>", ",", "Null"}], "}"}]], "Output",
+ CellChangeTimes->{{3.778714673834547*^9, 3.778714687264066*^9}, 
+   3.7787165500517693`*^9, 3.7787168106821575`*^9},
+ CellLabel->"Out[18]=",ExpressionUUID->"a3c998ce-b653-4430-851b-2f47506977ee"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "DeleteStopwords","strse",
+   "\"String or list of strings expected at position \\!\\(\\*RowBox[{\\\"1\\\
+\"}]\\) in \\!\\(\\*RowBox[{\\\"DeleteStopwords\\\", \\\"[\\\", RowBox[{\\\"{\
+\\\", RowBox[{\\\"\\\\\\\"test\\\\\\\"\\\", \\\",\\\", \\\"\\\\\\\"test\\\\\\\
+\"\\\", \\\",\\\", \\\"\\\\\\\"a\\\\\\\"\\\", \\\",\\\", \
+\\\"\\\\\\\"the\\\\\\\"\\\", \\\",\\\", \\\"\\\\\\\"it\\\\\\\"\\\", \
+\\\",\\\", \\\"Null\\\"}], \\\"}\\\"}], \\\"]\\\"}]\\).\"",2,19,11,
+   27850070880956034670,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.7787165500592365`*^9, 3.7787168106875362`*^9},
+ CellLabel->
+  "During evaluation of \
+In[18]:=",ExpressionUUID->"0851dbd1-5a29-481e-97bc-5b20962308ea"],
+
+Cell[BoxData[
+ RowBox[{"DeleteStopwords", "[", 
+  RowBox[{"{", 
+   RowBox[{"\<\"test\"\>", ",", "\<\"test\"\>", ",", "\<\"a\"\>", 
+    ",", "\<\"the\"\>", ",", "\<\"it\"\>", ",", "Null"}], "}"}], 
+  "]"}]], "Output",
+ CellChangeTimes->{{3.778714673834547*^9, 3.778714687264066*^9}, 
+   3.7787165500517693`*^9, 3.7787168107178245`*^9},
+ CellLabel->"Out[19]=",ExpressionUUID->"8998e468-9d11-4c5e-8729-b1bd316406d7"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "DeleteStopwords","strse",
+   "\"String or list of strings expected at position \\!\\(\\*RowBox[{\\\"1\\\
+\"}]\\) in \\!\\(\\*RowBox[{\\\"DeleteStopwords\\\", \\\"[\\\", \
+RowBox[{\\\"DeleteStopwords\\\", \\\"[\\\", RowBox[{\\\"{\\\", RowBox[{\\\"\\\
+\\\\\"test\\\\\\\"\\\", \\\",\\\", \\\"\\\\\\\"test\\\\\\\"\\\", \\\",\\\", \
+\\\"\\\\\\\"a\\\\\\\"\\\", \\\",\\\", \\\"\\\\\\\"the\\\\\\\"\\\", \\\",\\\", \
+\\\"\\\\\\\"it\\\\\\\"\\\", \\\",\\\", \\\"Null\\\"}], \\\"}\\\"}], \
+\\\"]\\\"}], \\\"]\\\"}]\\).\"",2,20,12,27850070880956034670,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.7787165500592365`*^9, 3.7787168107227554`*^9},
+ CellLabel->
+  "During evaluation of \
+In[18]:=",ExpressionUUID->"f30ef749-b95b-481a-8750-9c4fae1b1bb9"],
+
+Cell[BoxData[
+ GraphicsBox[InsetBox[
+   StyleBox[
+    RowBox[{"DeleteStopwords", "[", 
+     RowBox[{"DeleteStopwords", "[", 
+      RowBox[{"{", 
+       RowBox[{"\<\"test\"\>", ",", "\<\"test\"\>", ",", "\<\"a\"\>", 
+        ",", "\<\"the\"\>", ",", "\<\"it\"\>", ",", "Null"}], "}"}], "]"}], 
+     "]"}],
+    StripOnInput->False,
+    FontSize->Scaled[0.03709591944886063],
+    FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
+   Automatic],
+  DefaultBaseStyle->{"Graphics", FontFamily -> "Helvetica"},
+  Method->{
+   "DefaultBoundaryStyle" -> Automatic, 
+    "DefaultGraphicsInteraction" -> {
+     "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+      "Effects" -> {
+       "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+        "Droplines" -> {
+         "freeformCursorMode" -> True, 
+          "placement" -> {"x" -> "All", "y" -> "None"}}}}, "DefaultPlotStyle" -> 
+    Automatic},
+  PlotRange->{{-943., 944.}, {-40., 30.}}]], "Output",
+ CellChangeTimes->{{3.778714673834547*^9, 3.778714687264066*^9}, 
+   3.7787165500517693`*^9, 3.7787168114682407`*^9},
+ CellLabel->"Out[20]=",ExpressionUUID->"73b6df8a-5f2b-4552-af19-a001357efd00"]
 }, Open  ]]
 },
-WindowSize->{638, 628},
-WindowMargins->{{Automatic, -7}, {Automatic, 0}},
+WindowSize->{1280, 637},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
 FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (April 11, 2019)",
 StyleDefinitions->"Default.nb"
 ]
@@ -624,8 +736,46 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[583, 22, 530, 11, 48, "Input",ExpressionUUID->"e8b9236f-a475-427a-b5df-c1b99a6a7147"],
-Cell[1116, 35, 24135, 571, 376, "Output",ExpressionUUID->"11b46b69-471d-495e-939f-b5182e3e704a"]
+Cell[583, 22, 758, 14, 48, "Input",ExpressionUUID->"e8b9236f-a475-427a-b5df-c1b99a6a7147"],
+Cell[1344, 38, 683, 13, 23, "Message",ExpressionUUID->"9fe0fc98-d8cc-481e-9f7f-898fbed2af28"],
+Cell[2030, 53, 1205, 26, 36, "Output",ExpressionUUID->"ce80073c-b8b0-4d30-a3f7-ec09778fe382"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3272, 84, 291, 4, 28, "Input",ExpressionUUID->"5f280cf3-03f2-4453-a6b6-3d40fcf8fe4d"],
+Cell[3566, 90, 300, 5, 32, "Output",ExpressionUUID->"9058ae51-8910-481c-9783-6b1ac692b5ea"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3903, 100, 508, 11, 28, "Input",ExpressionUUID->"8bb378c8-0c10-4c1d-9db6-82860b0c0912"],
+Cell[4414, 113, 444, 10, 32, "Output",ExpressionUUID->"fe4b33b1-d018-4949-864d-9ec1af67e02d"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4895, 128, 555, 13, 67, "Input",ExpressionUUID->"6d295782-3f82-4458-bcb8-92a305d92e02"],
+Cell[5453, 143, 416, 9, 32, "Output",ExpressionUUID->"284bd2eb-0a4a-49d3-ad1f-5b93238b473c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5906, 157, 237, 4, 48, "Input",ExpressionUUID->"b2331ad2-f87f-486f-8ffd-ff0111e9cf16"],
+Cell[6146, 163, 10579, 256, 150, "Output",ExpressionUUID->"c84ee575-005f-4ba6-a9f6-2d30581b1ddd"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16762, 424, 266, 5, 28, "Input",ExpressionUUID->"f5fb5658-cde5-40c1-801e-011f1e58c226"],
+Cell[17031, 431, 1250, 30, 291, "Output",ExpressionUUID->"ee31f1d9-6a05-4d31-b8a1-c6a2809f5189"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[18318, 466, 452, 10, 28, "Input",ExpressionUUID->"0446a485-9ffb-4889-8e81-b26fe3a29b8d"],
+Cell[18773, 478, 1352, 32, 242, "Output",ExpressionUUID->"4de2c592-dfdf-45e7-91a9-1f5b8867eaad"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[20162, 515, 1234, 32, 48, "Input",ExpressionUUID->"319997ee-348a-4088-8b3f-7d8e4cc90123"],
+Cell[21399, 549, 1645, 25, 40, "Message",ExpressionUUID->"c1e82ebb-2624-4fe6-821b-80d207540400"],
+Cell[23047, 576, 1840, 46, 32, "Output",ExpressionUUID->"1ab8d065-7807-480a-a331-a81b2a0c7b30"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[24924, 627, 570, 12, 48, "Input",ExpressionUUID->"5b646415-314c-46f7-9be6-939523ae31f4"],
+Cell[25497, 641, 366, 6, 32, "Output",ExpressionUUID->"a3c998ce-b653-4430-851b-2f47506977ee"],
+Cell[25866, 649, 739, 14, 23, "Message",ExpressionUUID->"0851dbd1-5a29-481e-97bc-5b20962308ea"],
+Cell[26608, 665, 413, 8, 32, "Output",ExpressionUUID->"8998e468-9d11-4c5e-8729-b1bd316406d7"],
+Cell[27024, 675, 794, 14, 23, "Message",ExpressionUUID->"f30ef749-b95b-481a-8750-9c4fae1b1bb9"],
+Cell[27821, 691, 1186, 27, 33, "Output",ExpressionUUID->"73b6df8a-5f2b-4552-af19-a001357efd00"]
 }, Open  ]]
 }
 ]
