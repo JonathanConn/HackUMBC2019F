@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       161,          7]
-NotebookDataLength[     31806,        775]
-NotebookOptionsPosition[     29023,        721]
-NotebookOutlinePosition[     29365,        736]
-CellTagsIndexPosition[     29322,        733]
+NotebookDataLength[     29543,        728]
+NotebookOptionsPosition[     27049,        677]
+NotebookOutlinePosition[     27391,        692]
+CellTagsIndexPosition[     27348,        689]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -632,74 +632,30 @@ Cell[BoxData[{
    "\"\<test\>\"", ",", "\"\<test\>\"", ",", "\"\<a\>\"", ",", "\"\<the\>\"", 
     ",", "\"\<it\>\""}], "}"}]}], "\[IndentingNewLine]", 
  RowBox[{"WordCloud", "[", 
-  RowBox[{"DeleteStopwords", "[", "words", "]"}], "]"}]}], "Input",
+  RowBox[{"DeleteStopwords", "[", 
+   RowBox[{"{", 
+    RowBox[{
+    "\"\<test\>\"", ",", "\"\<test\>\"", ",", "\"\<a\>\"", ",", "\"\<the\>\"",
+      ",", "\"\<it\>\""}], "}"}], "]"}], "]"}]}], "Input",
  CellChangeTimes->{{3.7787144374139676`*^9, 3.7787145016023617`*^9}, {
    3.7787145472306457`*^9, 3.778714686321224*^9}, 3.7787165443698025`*^9, {
-   3.7787168073385487`*^9, 
-   3.7787168186390867`*^9}},ExpressionUUID->"5b646415-314c-46f7-9be6-\
+   3.7787168073385487`*^9, 3.7787168186390867`*^9}, {3.778719178643922*^9, 
+   3.778719179656144*^9}},ExpressionUUID->"5b646415-314c-46f7-9be6-\
 939523ae31f4"],
 
 Cell[BoxData[
  RowBox[{"{", 
   RowBox[{"\<\"test\"\>", ",", "\<\"test\"\>", ",", "\<\"a\"\>", 
-   ",", "\<\"the\"\>", ",", "\<\"it\"\>", ",", "Null"}], "}"}]], "Output",
+   ",", "\<\"the\"\>", ",", "\<\"it\"\>"}], "}"}]], "Output",
  CellChangeTimes->{{3.778714673834547*^9, 3.778714687264066*^9}, 
-   3.7787165500517693`*^9, 3.7787168106821575`*^9},
- CellLabel->"Out[18]=",ExpressionUUID->"a3c998ce-b653-4430-851b-2f47506977ee"],
-
-Cell[BoxData[
- TemplateBox[{
-  "DeleteStopwords","strse",
-   "\"String or list of strings expected at position \\!\\(\\*RowBox[{\\\"1\\\
-\"}]\\) in \\!\\(\\*RowBox[{\\\"DeleteStopwords\\\", \\\"[\\\", RowBox[{\\\"{\
-\\\", RowBox[{\\\"\\\\\\\"test\\\\\\\"\\\", \\\",\\\", \\\"\\\\\\\"test\\\\\\\
-\"\\\", \\\",\\\", \\\"\\\\\\\"a\\\\\\\"\\\", \\\",\\\", \
-\\\"\\\\\\\"the\\\\\\\"\\\", \\\",\\\", \\\"\\\\\\\"it\\\\\\\"\\\", \
-\\\",\\\", \\\"Null\\\"}], \\\"}\\\"}], \\\"]\\\"}]\\).\"",2,19,11,
-   27850070880956034670,"Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.7787165500592365`*^9, 3.7787168106875362`*^9},
- CellLabel->
-  "During evaluation of \
-In[18]:=",ExpressionUUID->"0851dbd1-5a29-481e-97bc-5b20962308ea"],
-
-Cell[BoxData[
- RowBox[{"DeleteStopwords", "[", 
-  RowBox[{"{", 
-   RowBox[{"\<\"test\"\>", ",", "\<\"test\"\>", ",", "\<\"a\"\>", 
-    ",", "\<\"the\"\>", ",", "\<\"it\"\>", ",", "Null"}], "}"}], 
-  "]"}]], "Output",
- CellChangeTimes->{{3.778714673834547*^9, 3.778714687264066*^9}, 
-   3.7787165500517693`*^9, 3.7787168107178245`*^9},
- CellLabel->"Out[19]=",ExpressionUUID->"8998e468-9d11-4c5e-8729-b1bd316406d7"],
-
-Cell[BoxData[
- TemplateBox[{
-  "DeleteStopwords","strse",
-   "\"String or list of strings expected at position \\!\\(\\*RowBox[{\\\"1\\\
-\"}]\\) in \\!\\(\\*RowBox[{\\\"DeleteStopwords\\\", \\\"[\\\", \
-RowBox[{\\\"DeleteStopwords\\\", \\\"[\\\", RowBox[{\\\"{\\\", RowBox[{\\\"\\\
-\\\\\"test\\\\\\\"\\\", \\\",\\\", \\\"\\\\\\\"test\\\\\\\"\\\", \\\",\\\", \
-\\\"\\\\\\\"a\\\\\\\"\\\", \\\",\\\", \\\"\\\\\\\"the\\\\\\\"\\\", \\\",\\\", \
-\\\"\\\\\\\"it\\\\\\\"\\\", \\\",\\\", \\\"Null\\\"}], \\\"}\\\"}], \
-\\\"]\\\"}], \\\"]\\\"}]\\).\"",2,20,12,27850070880956034670,"Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.7787165500592365`*^9, 3.7787168107227554`*^9},
- CellLabel->
-  "During evaluation of \
-In[18]:=",ExpressionUUID->"f30ef749-b95b-481a-8750-9c4fae1b1bb9"],
+   3.7787165500517693`*^9, {3.7787168106821575`*^9, 3.7787168203744383`*^9}},
+ CellLabel->"Out[21]=",ExpressionUUID->"f78dbf6f-e1a8-4db1-b404-d0855fc1ac80"],
 
 Cell[BoxData[
  GraphicsBox[InsetBox[
-   StyleBox[
-    RowBox[{"DeleteStopwords", "[", 
-     RowBox[{"DeleteStopwords", "[", 
-      RowBox[{"{", 
-       RowBox[{"\<\"test\"\>", ",", "\<\"test\"\>", ",", "\<\"a\"\>", 
-        ",", "\<\"the\"\>", ",", "\<\"it\"\>", ",", "Null"}], "}"}], "]"}], 
-     "]"}],
+   StyleBox["\<\"test\"\>",
     StripOnInput->False,
-    FontSize->Scaled[0.03709591944886063],
+    FontSize->Scaled[0.6086956521739131],
     FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
    Automatic],
   DefaultBaseStyle->{"Graphics", FontFamily -> "Helvetica"},
@@ -713,10 +669,10 @@ Cell[BoxData[
          "freeformCursorMode" -> True, 
           "placement" -> {"x" -> "All", "y" -> "None"}}}}, "DefaultPlotStyle" -> 
     Automatic},
-  PlotRange->{{-943., 944.}, {-40., 30.}}]], "Output",
+  PlotRange->{{-57.5, 57.5}, {-26.5, 27.5}}]], "Output",
  CellChangeTimes->{{3.778714673834547*^9, 3.778714687264066*^9}, 
-   3.7787165500517693`*^9, 3.7787168114682407`*^9},
- CellLabel->"Out[20]=",ExpressionUUID->"73b6df8a-5f2b-4552-af19-a001357efd00"]
+   3.7787165500517693`*^9, {3.7787168106821575`*^9, 3.7787168205207567`*^9}},
+ CellLabel->"Out[22]=",ExpressionUUID->"e4126cbf-40ef-4074-82dd-16e69286dc77"]
 }, Open  ]]
 },
 WindowSize->{1280, 637},
@@ -770,12 +726,9 @@ Cell[21399, 549, 1645, 25, 40, "Message",ExpressionUUID->"c1e82ebb-2624-4fe6-821
 Cell[23047, 576, 1840, 46, 32, "Output",ExpressionUUID->"1ab8d065-7807-480a-a331-a81b2a0c7b30"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[24924, 627, 570, 12, 48, "Input",ExpressionUUID->"5b646415-314c-46f7-9be6-939523ae31f4"],
-Cell[25497, 641, 366, 6, 32, "Output",ExpressionUUID->"a3c998ce-b653-4430-851b-2f47506977ee"],
-Cell[25866, 649, 739, 14, 23, "Message",ExpressionUUID->"0851dbd1-5a29-481e-97bc-5b20962308ea"],
-Cell[26608, 665, 413, 8, 32, "Output",ExpressionUUID->"8998e468-9d11-4c5e-8729-b1bd316406d7"],
-Cell[27024, 675, 794, 14, 23, "Message",ExpressionUUID->"f30ef749-b95b-481a-8750-9c4fae1b1bb9"],
-Cell[27821, 691, 1186, 27, 33, "Output",ExpressionUUID->"73b6df8a-5f2b-4552-af19-a001357efd00"]
+Cell[24924, 627, 751, 16, 48, "Input",ExpressionUUID->"5b646415-314c-46f7-9be6-939523ae31f4"],
+Cell[25678, 645, 379, 6, 32, "Output",ExpressionUUID->"f78dbf6f-e1a8-4db1-b404-d0855fc1ac80"],
+Cell[26060, 653, 973, 21, 186, "Output",ExpressionUUID->"e4126cbf-40ef-4074-82dd-16e69286dc77"]
 }, Open  ]]
 }
 ]

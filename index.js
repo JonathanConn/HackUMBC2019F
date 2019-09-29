@@ -1,5 +1,7 @@
 var Twitter = require('twitter');
-var keyword = {Word: "", Count: 0};
+var sw = require('stopword')
+var count = require('count-array-values')
+
 var wolfRamString = "";
 
 var client = new Twitter({
@@ -14,40 +16,48 @@ var params = {
     trim_user: true, 
     exclude_replies: true, 
     include_entities: false,
-    count: 1,
+    count: 200,
 };
 client.get('statuses/user_timeline', params, function(error, tweet, response) {
     if(error) throw error;
 
     //parsing tweet[] into one massive string of .text elms
     var arrayLength = tweet.length;
+    var array = "";
 
     for (var i = 0; i < arrayLength; i++) {
+        var temp = tweet[i].text.toLowerCase();
+        array += temp;
+    }
 
-        var temp = tweet[i].text;
-        var array = temp.split(" ");
+    var strArray = array.toString();
+    var newStrArray = sw.removeStopwords(strArray.split(' '));
 
-        array.forEach(element => {
+    var counted = count(newStrArray)
+    console.log(counted.sort(function(a, b){return a.count - b.count}).reverse())
+
+      /*
+        counted.forEach(element => {
             wolfRamString += "\"" + element + "\"";
             if(i != arrayLength){
                 wolfRamString += ",";
             }
         });
-    }
+        */
+    
 
     var status = genWoldRamStr(wolfRamString)
-    console.log(status)
-
+  //  console.log(status)
+/*
     client.post('statuses/update', {status: status}, function(error, tweet, response) {
-        if (!error) {
+       if (!error) {
           console.log(tweet);
         }else{
             console.log(error);
             console.log(status);
         }
     });
-
-
+*/
 });
 
 function genWoldRamStr(keywords){
